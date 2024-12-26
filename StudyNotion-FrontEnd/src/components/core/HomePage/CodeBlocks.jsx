@@ -9,17 +9,17 @@ function CodeBlocks({
     direction,heading,subheading,ctabtn1,ctabtn2,codeBlock,backgroundGradient,codeColor
 }){
   return (
-    <div className={`flex ${direction} my-20  justify-between`}>
+    <div className={`flex lg:flex-row${direction==="row"?"":"-reverse"} my-7 items-center  lg:justify-between flex-col${direction==="row"?"":"-reverse"} flex-auto`}>
 
         {/*Section 1*/}
 
-        <div className='w-[50%] flex flex-col gap-8'>
+        <div className='lg:w-[50%] w-full flex flex-col gap-8 max-lg:gap-4 md:2xl lg:text-3xl'>
             {heading}
             <div className='text-richblack-300 font-bold'>
                 {subheading}
             </div>
 
-            <div className='flex flex-row gap-7 mt-8'>
+            <div className='flex flex-row gap-7 max-lg:justify-center'>
                 <CTAButton active={ctabtn1.active} linkto={ctabtn1.linkto}>
                     <div className='flex gap-2 items-center'>
                     <div>{ctabtn1.text}</div>
@@ -35,13 +35,13 @@ function CodeBlocks({
         </div>
 
         {/*Section 2*/}
-        <div className='relative w-[40%] z-10  rounded-md'>
+        <div className='relative lg:w-[40%] w-full z-10  rounded-md max-lg:mt-7'>
 
-        <div class="rounded-md h-[100px] w-[200px] top-[50%] left-[50%]  transform -translate-x-[50%] -translate-y-[50%] absolute -z-10">
+        <div class={`rounded-md lg:h-[100px] lg:w-[200px] top-[50%] left-[50%]   transform -translate-x-[50%] -translate-y-[50%] absolute -z-10 `}>
             <img src={backGR} alt=''></img>
         </div>
 
-        <div className='rounded-md realtive flex flex-row w-full p-2 gap-1 justify-between backdrop-blur-3xl z-10'>
+        <div className='rounded-md relative flex flex-row flex-auto w-full p-2 gap-1 justify-between backdrop-blur-3xl z-10 text-[9px] sm:text-md md:text-lg lg:text-xl xl:text-2xl mb-4'>
 
         <div className='rounded-md border-dotted border-blue-300 border-2 w-[10%] text-center flex flex-col text-richblack-400 font-inter font-bold'>
             <div>1</div>

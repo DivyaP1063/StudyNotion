@@ -52,8 +52,23 @@ function ReviewSlider() {
     <div className="text-white my-[50px] w-full ">
       <div className="mx-auto h-[180px]">
         <Swiper
-          slidesPerView={3}
-          spaceBetween={25}
+          breakpoints={{
+        // Mobile devices
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
+        // Tablets
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        // Desktops
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+          }}
           loop={true}
           freeMode={true}
           autoplay={{
@@ -61,13 +76,13 @@ function ReviewSlider() {
             disableOnInteraction: false,
           }}
           modules={[FreeMode, Pagination, Autoplay]}
-          className=" max-w-maxContentTab lg:max-w-maxContent flex flex-col lg:flex-row h-full "
+          className=" max-w-maxContentTab lg:max-w-maxContent h-full "
         >
           {reviews.map((review, i) => {
             return (
               <SwiperSlide key={i}>
-                <div className="flex flex-col gap-3 justify-between bg-richblack-800 p-3 text-[14px] text-richblack-25 rounded-md h-full">
-                  <div className="flex items-center gap-4">
+                <div className="flex flex-col gap-3 justify-between bg-richblack-800 p-3 text-[14px] text-richblack-25 rounded-md h-full ">
+                  <div className="flex justify-center items-center gap-4">
                     <img
                       src={
                         review?.user?.image
@@ -84,7 +99,7 @@ function ReviewSlider() {
                       </h2>
                     </div>
                   </div>
-                  <p className="font-medium text-richblack-25">
+                  <p className="font-medium text-richblack-25 text-center">
                     {review?.review.split(" ").length > truncateWords
                       ? `${review?.review
                           .split(" ")
@@ -92,7 +107,7 @@ function ReviewSlider() {
                           .join(" ")} ...`
                       : `${review?.review}`}
                   </p>
-                  <div className="flex items-center gap-2 ">
+                  <div className="flex items-center gap-2 justify-center">
                     <h3 className="font-semibold text-yellow-100">
                       {review.rating.toFixed(1)}
                     </h3>

@@ -34,11 +34,11 @@ function Home() {
           </div>
         </Link>
 
-        <div className="text-4xl font-semibold text-center mt-4">
+        <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-center mt-4">
           Empower Your Future With
           <Highlightedtext text={"Coding Skills"} />
         </div>
-        <div className="text-center max-w-[75%] mt-4 text-lg font-bold text-richblack-300">
+        <div className="text-center max-w-[75%] mt-4 text-sm sm:text-md lg:text-lg font-bold text-richblack-300">
           <p>
             With our online coding courses, you can learn at your own pace, from
             anywhere in the world, and get access to a wealth of resources,
@@ -73,7 +73,7 @@ function Home() {
 
         <div className="max-w-[90%]">
           <CodeBlocks
-            direction={"flex-row"}
+            direction={"row"}
             heading={
               <div className="text-3xl font-semibold ">
                 Unlock Your
@@ -114,7 +114,7 @@ function Home() {
 
         <div className="max-w-[90%]">
           <CodeBlocks
-            direction={"flex-row-reverse"}
+            direction={"reverse"}
             heading={
               <div className="text-3xl font-semibold">
                 Unlock Your
@@ -164,7 +164,7 @@ function Home() {
 
             <div className="w-11/12 max-w-maxContent flex flex-col items-center justify-center gap-5 mx-auto ">
 
-            <div className="flex flex-row gap-7 text-white mt-[150px]">
+            <div className="flex flex-col lg:flex-row  gap-7 text-white mt-[150px]">
 
             <CTAButton active={true} linkto={"/signup"}>
             <div className="flex flex-row gap-3 items-center">
@@ -184,7 +184,7 @@ function Home() {
       </div>
 
       <div className="w-11/12 max-w-maxContent flex flex-col items-center justify-center gap-5 mx-auto">
-      <div className="mb-10  flex  justify-between gap-7 mt-20 flex-row lg:gap-0">
+      <div className="mb-10  flex flex-col md:flex-row  justify-between gap-7 mt-20  lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%] ">
               Get the skills you need for a{" "}
               <Highlightedtext text={"job that is in demand."} />
@@ -195,9 +195,12 @@ function Home() {
                 be a competitive specialist requires more than professional
                 skills.
               </div>
+              <div className="flex flex-row justify-center w-full">
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="">Learn More</div>
               </CTAButton>
+              </div>
+
             </div>
       </div>
           {/* Timeline Section - Section 2 */}

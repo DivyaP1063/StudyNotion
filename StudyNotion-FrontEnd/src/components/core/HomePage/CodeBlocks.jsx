@@ -9,13 +9,13 @@ function CodeBlocks({
     direction,heading,subheading,ctabtn1,ctabtn2,codeBlock,backgroundGradient,codeColor
 }){
   return (
-    <div className={`flex lg:flex-row${direction==="row"?"":"-reverse"} my-7 items-center  lg:justify-between flex-col${direction==="row"?"":"-reverse"} flex-auto`}>
+    <div className={`flex lg:justify-between lg:flex-row ${direction === "row" ? "" : "lg:flex-row-reverse"} my-7 items-center flex-col ${direction === "row" ? "" : "flex-col-reverse"} flex-auto`}>
 
         {/*Section 1*/}
 
-        <div className='lg:w-[50%] w-full flex flex-col gap-8 max-lg:gap-4 md:2xl lg:text-3xl'>
+        <div className='lg:w-[50%] w-full flex flex-col gap-8 max-lg:gap-4 md:2xl lg:text-3xl '>
             {heading}
-            <div className='text-richblack-300 font-bold'>
+            <div className='text-richblack-300 font-bold lg:text-lg'>
                 {subheading}
             </div>
 
@@ -41,7 +41,7 @@ function CodeBlocks({
             <img src={backGR} alt=''></img>
         </div>
 
-        <div className='rounded-md relative flex flex-row flex-auto w-full p-2 gap-1 justify-between backdrop-blur-3xl z-10 text-[9px] sm:text-md md:text-lg lg:text-xl xl:text-2xl mb-4'>
+        <div className='rounded-md relative flex flex-row flex-auto w-full p-2 gap-1 justify-between backdrop-blur-3xl z-10 text-[9px] sm:text-md md:text-lg lg:text-md xl:text-lg mb-4'>
 
         <div className='rounded-md border-dotted border-blue-300 border-2 w-[10%] text-center flex flex-col text-richblack-400 font-inter font-bold'>
             <div>1</div>

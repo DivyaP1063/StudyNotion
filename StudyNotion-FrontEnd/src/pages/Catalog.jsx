@@ -102,18 +102,21 @@ const Catalog = () => {
                 New
               </p>
             </div>
-            <div>
+            <div className='flex justify-center'>
+            <div className='w-full pr-1'>
               <CourseSlider
                 Courses={catalogPageData?.data?.selectedCategory?.courses}
               />
             </div>
+            </div>
+
           </div>
           {/* Section 2 */}
-          <div className=" mx-auto box-content w-full max-w-maxContentTab px-4 py-12 lg:max-w-maxContent">
+          <div className=" mx-auto box-content w-full  max-w-maxContentTab px-4 py-12 lg:max-w-maxContent">
             <div className="section_heading">
               Top courses in {catalogPageData?.data?.differentCategory?.name}
             </div>
-            <div className="py-8">
+            <div className="py-8 w-[90%]">
               <CourseSlider
                 Courses={catalogPageData?.data?.differentCategory?.courses}
               />

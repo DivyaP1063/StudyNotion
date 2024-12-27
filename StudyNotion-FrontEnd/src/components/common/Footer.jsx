@@ -28,13 +28,13 @@ const Footer = () => {
       <div className="flex lg:flex-row gap-8 items-center justify-between w-11/12 max-w-maxContent text-richblack-400 leading-6 mx-auto relative py-14">
         <div className="border-b w-[100%] flex flex-col lg:flex-row pb-5 border-richblack-700">
           {/* Section 1 */}
-          <div className="lg:w-[50%] flex flex-wrap flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-5 gap-3">
-            <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0">
+          <div className="lg:w-[50%] sm:w-full flex flex-col lg:flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-5 gap-3">
+            <div className="sm:w-full flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0 max-lg:text-center items-center">
               <img src={Logo} alt="" className="object-contain" />
               <h1 className="text-richblack-50 font-semibold text-[16px]">
                 Company
               </h1>
-              <div className="flex flex-col gap-2">
+              <div className="flex max-sm:flex-wrap lg:flex-col  gap-2 max-sm:justify-center">
                 {["About", "Careers", "Affiliates"].map((ele, i) => {
                   return (
                     <div
@@ -55,12 +55,14 @@ const Footer = () => {
               <div></div>
             </div>
 
-            <div className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
-              <h1 className="text-richblack-50 font-semibold text-[16px]">
+            <div className="w-full lg:w-[30%] mb-7 lg:pl-0">
+            <div className="max-lg:text-center">
+            <div>
+            <h1 className="text-richblack-50 font-semibold text-[16px]">
                 Resources
               </h1>
-
-              <div className="flex flex-col gap-2 mt-2">
+            </div>
+            <div className="flex flex-wrap lg:flex-col gap-2 mt-2 justify-center">
                 {Resources.map((ele, index) => {
                   return (
                     <div
@@ -74,21 +76,32 @@ const Footer = () => {
                   );
                 })}
               </div>
+            </div>
 
+            <div className="max-lg:text-center">
+              <div>
               <h1 className="text-richblack-50 font-semibold text-[16px] mt-7">
                 Support
               </h1>
-              <div className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200 mt-2">
+              </div>
+              
+              <div className="text-[14px] cursor-pointer hover:text-richblack-50 transition-all duration-200
+              flex flex-wrap lg:flex-col gap-2 mt-2 justify-center">
                 <Link to={"/help-center"}>Help Center</Link>
               </div>
             </div>
 
-            <div className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
-              <h1 className="text-richblack-50 font-semibold text-[16px]">
+            </div>
+
+            <div className="w-full lg:w-[30%] mb-7 lg:pl-0">
+            <div className="max-lg:text-center">
+            <div>
+            <h1 className="text-richblack-50 font-semibold text-[16px]">
                 Plans
               </h1>
+            </div>
 
-              <div className="flex flex-col gap-2 mt-2">
+              <div className="flex flex-wrap lg:flex-col gap-2 mt-2 justify-center">
                 {Plans.map((ele, index) => {
                   return (
                     <div
@@ -102,11 +115,16 @@ const Footer = () => {
                   );
                 })}
               </div>
+
+            </div>
+
+            <div className="max-lg:text-center">
+              <div>
               <h1 className="text-richblack-50 font-semibold text-[16px] mt-7">
                 Community
               </h1>
-
-              <div className="flex flex-col gap-2 mt-2">
+              </div>
+              <div className="flex flex-wrap lg:flex-col gap-2 mt-2 justify-center">
                 {Community.map((ele, index) => {
                   return (
                     <div
@@ -121,17 +139,23 @@ const Footer = () => {
                 })}
               </div>
             </div>
+
+            </div>
           </div>
 
           {/* Section 2 */}
-          <div className="lg:w-[50%] flex flex-wrap flex-row justify-between pl-3 lg:pl-5 gap-3">
+          <div className="lg:w-[50%] sm:w-full flex flex-col lg:flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-5 gap-3">
             {FooterLink2.map((ele, i) => {
               return (
-                <div key={i} className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
-                  <h1 className="text-richblack-50 font-semibold text-[16px]">
+                <div key={i} className="w-full lg:w-[30%] mb-7 lg:pl-0">
+                <div>
+                <div className="max-lg:text-center">
+                <h1 className="text-richblack-50 font-semibold text-[16px]">
                     {ele.title}
                   </h1>
-                  <div className="flex flex-col gap-2 mt-2">
+                </div>
+
+                  <div className="flex flex-wrap lg:flex-col gap-2 mt-2 justify-center">
                     {ele.links.map((link, index) => {
                       return (
                         <div
@@ -143,6 +167,8 @@ const Footer = () => {
                       );
                     })}
                   </div>
+                </div>
+
                 </div>
               );
             })}

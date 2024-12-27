@@ -13,7 +13,7 @@ export default function Cart() {
         {totalItems} Courses in Cart
       </p>
       {total > 0 ? (
-        <div className="mt-8 flex flex-col-reverse items-start gap-x-10 gap-y-6 lg:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-between gap-x-10 gap-y-6 lg:flex-row  ">
           <RenderCartCourses />
           <RenderTotalAmount />
         </div>

@@ -18,16 +18,28 @@ const CourseSlider = ({ Courses }) => {
     <>
       {Courses?.length ? (
         <Swiper
-          slidesPerView={3}
-          spaceBetween={25}
+          slidesPerView={1}
+          spaceBetween={15}
           loop={true}
           modules={[FreeMode, Pagination]} // Corrected imports
           breakpoints={{
-            1024: {
-              slidesPerView: 3,
-            },
+        // Mobile devices
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        // Tablets
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        // Desktops
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
           }}
-          className="max-h-[30rem]"
+          className="max-w-maxContentTab lg:max-w-maxContent "
         >
           {Courses?.map((course, i) => (
             <SwiperSlide key={i}>

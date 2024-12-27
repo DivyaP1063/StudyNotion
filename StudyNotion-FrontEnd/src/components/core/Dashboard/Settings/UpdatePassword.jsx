@@ -44,7 +44,7 @@ export default function UpdatePassword() {
                 name="oldPassword"
                 id="oldPassword"
                 placeholder="Enter Current Password"
-                className="form-style"
+                className="form-style max-sm:text-[12px]"
                 {...register("oldPassword", { required: true })}
               />
               <span
@@ -72,7 +72,7 @@ export default function UpdatePassword() {
                 name="newPassword"
                 id="newPassword"
                 placeholder="Enter New Password"
-                className="form-style"
+                className="form-style max-sm:text-[12px]"
                 {...register("newPassword", { required: true })}
               />
               <span
@@ -93,7 +93,7 @@ export default function UpdatePassword() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end gap-2">
+        <div className="flex max-sm:justify-center justify-end gap-2">
           <button
             onClick={() => {
               navigate("/dashboard/my-profile")

@@ -169,12 +169,13 @@ const VideoDetails = () => {
   }
 
   return (
-    <div className="flex flex-col gap-5 text-white">
-      {!videoData ? (
+    <div className="relative w-full max-h-[68%] flex flex-col items-center max-sm:justify-center text-white mt-[6px] ">
+    <div className="h-[50%] w-[80%]">
+    {!videoData ? (
         <img
           src={previewSource}
           alt="Preview"
-          className="h-full w-full rounded-md object-cover"
+          className=" rounded-md "
         />
       ) : (
         <Player
@@ -239,8 +240,12 @@ const VideoDetails = () => {
         </Player>
       )}
 
-      <h1 className="mt-4 text-3xl font-semibold">{videoData?.title}</h1>
-      <p className="pt-2 pb-6">{videoData?.description}</p>
+      <h1 className="mt-4 text-3xl font-semibold self-start">{videoData?.title}</h1>
+      <p className="pt-2 pb-6 self-start">{videoData?.description}</p>
+    </div>
+
+
+
     </div>
   )
 }

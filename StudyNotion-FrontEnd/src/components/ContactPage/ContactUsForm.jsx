@@ -101,19 +101,19 @@ const ContactUsForm = () => {
         )}
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col  gap-2">
         <label htmlFor="phonenumber" className="lable-style">
           Phone Number
         </label>
 
-        <div className="flex gap-5">
-          <div className="flex w-[81px] flex-col gap-2">
+        <div className="flex justify-between">
+          <div className="flex w-[81px] flex-col gap-2 justify-center">
             <select
               type="text"
               name="firstname"
               id="firstname"
               placeholder="Enter first name"
-              className="form-style"
+              className="form-style "
               {...register("countrycode", { required: true })}
             >
               {CountryCode.map((ele, i) => {

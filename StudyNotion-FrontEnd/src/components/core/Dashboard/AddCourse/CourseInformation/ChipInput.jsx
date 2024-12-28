@@ -63,7 +63,7 @@ export default function ChipInput({
   return (
     <div className="flex flex-col space-y-2">
       {/* Render the label for the input */}
-      <label className="text-sm text-richblack-5" htmlFor={name}>
+      <label className="max-sm:text-xs text-sm text-richblack-5" htmlFor={name}>
         {label} <sup className="text-pink-200">*</sup>
       </label>
       {/* Render the chips and input */}
@@ -72,7 +72,7 @@ export default function ChipInput({
         {chips.map((chip, index) => (
           <div
             key={index}
-            className="m-1 flex items-center rounded-full bg-yellow-400 px-2 py-1 text-sm text-richblack-5"
+            className="m-1 flex items-center rounded-full bg-yellow-400 px-2 py-1 max-sm:text-xs text-sm text-richblack-5"
           >
             {/* Render the chip value */}
             {chip}
@@ -93,7 +93,7 @@ export default function ChipInput({
           type="text"
           placeholder={placeholder}
           onKeyDown={handleKeyDown}
-          className="form-style w-full"
+          className="form-style w-full max-sm:text-xs "
         />
       </div>
       {/* Render an error message if the input is required and not filled */}

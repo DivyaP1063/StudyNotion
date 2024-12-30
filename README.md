@@ -10,31 +10,31 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-29_030935_q0368t.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-29_030935_q0368t.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160350_mwscsm.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160350_mwscsm.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160401_yxhudy.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160401_yxhudy.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555811/Screenshot_2024-12-30_160518_mciwrn.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555811/Screenshot_2024-12-30_160518_mciwrn.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160535_gxwhjb.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160535_gxwhjb.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160641_msgxyu.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160641_msgxyu.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160711_otsy2n.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555813/Screenshot_2024-12-30_160711_otsy2n.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160746_dv24v7.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555814/Screenshot_2024-12-30_160746_dv24v7.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160920_zivg0g.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160920_zivg0g.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160945_x6zek2.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160945_x6zek2.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160841_k0abwe.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160841_k0abwe.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160958_i2wbxc.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_160958_i2wbxc.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_161015_fytnc2.png" alt="project-screenshot" width="1024" height="400/">
+<img src="https://res.cloudinary.com/dfvs0kijp/image/upload/v1735555815/Screenshot_2024-12-30_161015_fytnc2.png" alt="project-screenshot" width="800" height="400/">
 
   
   
